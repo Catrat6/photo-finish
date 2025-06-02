@@ -41,9 +41,9 @@ body {
 /* header */
 
 .top-box {
-    height: 10vh;
+    min-height: 10vh;
     width: 90vw;
-    margin-top: 3vh;
+    margin-top: 5vh;
     margin-bottom: 3vh;
     display: flex;
     flex-direction: column;
