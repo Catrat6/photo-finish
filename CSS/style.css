@@ -211,6 +211,64 @@ body {
     margin-bottom: 5vh;
 }
 
+.about-footer-section {
+    width: 100%;
+    margin-bottom: 5vh;
+    background: linear-gradient(60deg, black, gray);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.photo-fin-foot li a,
+.black-magik-foot li a {
+    text-decoration: none;
+    color: var(--dark-blue);
+    font-size: 1rem;
+    font-weight: thinner;
+}
+
+.photo-fin-foot {
+    list-style-type: none;
+}
+
+.black-magik-foot {
+    list-style-type: none;
+
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center; 
+    border: 2px solid red;
+    margin-top: 5vh;
+    /* Optional: centers images */
+  }
+
+  .gallery img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px; /* Optional: rounded corners */
+    cursor: pointer;    /* Optional: pointer cursor on hover */
+    transition: transform 0.2s; /* Optional: hover effect */
+    
+}
+
+  .gallery img:hover {
+    transform: scale(2.05);
+    -webkit-transform: scale(2.05);
+    -moz-transform: scale(2.05);
+    -ms-transform: scale(2.05);
+    -o-transform: scale(2.05);
+    
+}
+
 
 /* Responsive Design */
 
